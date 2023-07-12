@@ -111,7 +111,7 @@ img{
 }
 @media screen and (max-width: 428px){
 main{
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     display: block;
 }
 .user_info1,
