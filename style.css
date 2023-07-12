@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    font-family: "Poppins";
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color:  #635a5a;
+}
+main{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.user_info1{
+    width: 400px;
+    height: 450px;
+    /* background-color: gold; */
+    box-shadow: 0px 5px 18px 5px #ece0e0;
+    margin-top: 30px;
+    /* text-align: center; */
+}
+h3{
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+
+}
+p{
+    font-size: 15px;
+    word-wrap: normal;
+    /* text-align: center; */
+
+}
+svg{
+    /* font-size: 20px; */
+    width: 20px;
+}
+img{
+    margin-top: 10px;
+}
+.user_gender,
+.user_country,
+.user_nationality,
+.user_email,
+.user_dob{
+    display: flex;
+    padding-left: 50px;
+    /* padding-left: auto; */
+    padding-right: 50px;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+.user_gender{
+    margin-top: 25px;
+}
+.user_img{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    /* background-color: aqua; */
+
+}
+.user_img img{
+    object-fit: cover;
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    /* margin-top: 20px; */
+    /* positi/on: absolute; */
+    /* position: fixed; */
+}
+.user_info2{
+    width: 400px;
+    height: 450px;
+    /* background-color: gold; */
+    box-shadow: 0px 5px 18px 5px #ece0e0;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.user_info3{
+    width: 400px;
+    height: 450px;
+    /* background-color: gold; */
+    box-shadow: 0px 5px 18px 5px #ece0e0;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.generate_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.generate_btn button{
+    margin-top: 30px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+
+}
+@media screen and (max-width: 428px){
+main{
+    background-color: darkgoldenrod;
+    display: block;
+}
+.user_info1,
+.user_info2,
+.user_info3{
+    width: 350px;
+    /* padding-left: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+}
+img{
+    padding-top: 10px;
+}
+}
+@media screen and (min-width: 768px){
+    .wrapper{
+        /* background-color: blueviolet; */
+    }
+}
